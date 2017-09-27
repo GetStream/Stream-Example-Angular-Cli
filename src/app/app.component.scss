@@ -1,0 +1,10 @@
+@import '../assets/foundation-sites/_settings';
+
+#dropdown-menu {
+  display: inline-block;
+
+  .is-active > a {
+    color: get-color('angular-anchors');
+  }
+}
+
