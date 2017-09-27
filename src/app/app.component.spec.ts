@@ -1,12 +1,20 @@
 import { TestBed, async } from '@angular/core/testing';
 
 import { AppComponent } from './app.component';
+import { FeedActivityComponent } from './feed-activity/feed-activity.component';
+import { FeedActivityListComponent } from './feed-activity-list/feed-activity-list.component';
+import { StreamService } from './stream.service';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        FeedActivityComponent,
+        FeedActivityListComponent,
+      ],
+      providers: [
+        StreamService
       ],
     }).compileComponents();
   }));
