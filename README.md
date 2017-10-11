@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
 
+The project is pre-configured with a shared Stream account for testing purposes. You can sign up for an account and obtain your own App Id and Key at https://getstream.io/get_started.
+
 ## Project setup
 
 This quick guide to setting up the project.
